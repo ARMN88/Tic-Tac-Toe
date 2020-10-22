@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="section">
+      <table>
+        <tr>
+          <td id="one-one"></td>
+          <td id="one-two"></td>
+          <td id="one-three"></td>
+        </tr>
+        <tr>
+          <td id="two-one"></td>
+          <td id="two-two"></td>
+          <td id="two-three"></td>
+        </tr>
+        <tr>
+          <td id="three-one"></td>
+          <td id="three-two"></td>
+          <td id="three-three"></td>
+        </tr>
+      </table>
+
+      <h2 id="score">Who Will Win?</h2>
+    </div>
+
+    <div class="cover"></div>
+
+    <div class="home">
+      <h1>Lets Play Tic Tac Toe!</h1>
+      <form>
+        <label>Player 1’s Name</label>
+        <input type="username" id="user1" value="Player X" />
+
+        <label>Player 2’s Name</label>
+        <input type="username" id="user2" value="Player O" />
+      </form>
+      <button onclick="Hide(); Lock();">PLAY!</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
